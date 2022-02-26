@@ -5,21 +5,21 @@ import { CurrentUserContext } from "../../contexts/CurrentUserContext";
 function EditProfilePopup(props) {
   const currentUser = React.useContext(CurrentUserContext);
   //поле имя
-  const [name, setChangeName] = React.useState("");
+  const [name, setName] = React.useState("");
 
   const handleChangeName = (event) => {
-    setChangeName(event.target.value);
+    setName(event.target.value);
   };
   //поле деятельности
-  const [description, setChangeDescription] = React.useState("");
+  const [description, setDescription] = React.useState("");
 
   const handleChangeDescription = (event) => {
-    setChangeDescription(event.target.value);
+    setDescription(event.target.value);
   };
 
   React.useEffect(() => {
-    setChangeName(currentUser.name);
-    setChangeDescription(currentUser.about);
+    setName(currentUser.name);
+    setDescription(currentUser.about);
   }, [currentUser, props.isOpen]);
 
   function handleSubmit(event) {

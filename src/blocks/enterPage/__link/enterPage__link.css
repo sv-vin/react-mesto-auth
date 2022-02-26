@@ -1,14 +1,14 @@
 .enterPage__link {
+  margin: 0;
+  padding: 0;
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 17px;
-  text-align: center;
-  color: #ffffff;
+  color: #FFFFFF;
   text-decoration: none;
   transition: opacity 0.3s linear;
-  margin-top: 15px;
 }
 
 .enterPage__link:hover {

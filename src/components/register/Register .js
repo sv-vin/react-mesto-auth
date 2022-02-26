@@ -31,7 +31,10 @@ const Register = ({ onRegister }) => {
         <input id="password" name="password" type="password" placeholder="Пароль" value={data.password} onChange={handleChange} className="enterPage__input" />
         <button type="submit" className="enterPage__button">Зарегистрироваться</button>
       </form>
-      <Link to="/sign-in" className="enterPage__link">Уже зарегистрированы? Войти</Link>
+      <div className="enterPage__signup">
+        <p className="enterPage__quest">Уже зарегистрированы?&nbsp;</p>
+        <Link to="sign-in" className="enterPage__link">Войти</Link>
+      </div>
     </main>
   );
 };

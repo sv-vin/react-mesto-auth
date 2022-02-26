@@ -1,3 +1,9 @@
+// по поводу 6 пункта:При неудачной авторизации необходимо выводить тултип с ошибкой
+// у меня вылазит попап с ошибкой, как по макету, если регистрация успешная, то пишет ура вы зарегестрированы,
+// если неудачная регистрация, то вылетате попап с ошибкой, не совсем понимаю, что необходимо исправить в данном случае
+
+
+
 import React, { useEffect, useState } from "react";
 import Profile from "./profile/Profile";
 import Register from "./register/Register ";
@@ -69,9 +75,6 @@ const App = () => {
     setImagePopupOpen(false);
     setIsDeletePopupOpen(false);
     setSelectedCard({ name: "", link: "" });
-    if (isInfoTooltipPopupOpen) {
-      history.push("/sign-in");
-    }
     setIsInfoTooltipPopupOpen(false);
     setIsNotInfoTooltipPopupOpen(false);
   }
@@ -111,7 +114,10 @@ const App = () => {
             const userData = {
               email: data.data.email,
               //          password: data.data._id,
+
             };
+
+
             localStorage.setItem("token", token);
             setUserData(userData);
             setLoggedIn(true);
@@ -144,8 +150,10 @@ const App = () => {
 
   const handleRegister = ({ email, password }) => {
     auth
+
       .register({ email, password })
       .then((data) => {
+        history.push("/sign-in");
         if (data) {
           setUserData({
             email,
@@ -158,17 +166,18 @@ const App = () => {
         console.error(error);
         handleNotInfoTooltipPopupOpen();
       });
+
   };
 
   const handleLogout = () => {
     localStorage.removeItem("token");
     setUserData({
       email: "",
-      password: "", 
+      password: "",
     });
     setLoggedIn(false);
   };
- 
+
   useEffect(() => {
     Promise.all([api.getPersonalInfo(), api.getCard()])
       .then(([user, data]) => {

@@ -24,7 +24,7 @@ const Login = ({ onLogin }) => {
 
   return (
     <main className="enterPage">
-      <h1 className="enter-page__text">Вход</h1>
+      <h1 className="enterPage__text">Вход</h1>
       <form onSubmit={handleSubmit} className="enterPage__form">
         <input type="email" name="email" placeholder="Email" className="enterPage__input" required minLength={2} maxLength={40} id="email" value={data.email} onChange={handleChange} />
         <span className="popup__input-error"></span>
