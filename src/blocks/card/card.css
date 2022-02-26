@@ -4,5 +4,5 @@
   flex-direction: column;
   min-width: 282px;
   position: relative;
-  object-fit: cover;
+  object-fit: contain;
 }
