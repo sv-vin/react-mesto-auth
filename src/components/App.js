@@ -153,18 +153,20 @@ const App = () => {
 
       .register({ email, password })
       .then((data) => {
-        history.push("/sign-in");
+       
         if (data) {
           setUserData({
             email,
             password,
           });
           handleInfoTooltipPopupOpen();
+          history.push("/sign-in");
         }
       })
       .catch((error) => {
         console.error(error);
         handleNotInfoTooltipPopupOpen();
+
       });
 
   };
