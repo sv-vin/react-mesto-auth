@@ -70,4 +70,3 @@ function AddPlacePopup(props) {
 }
 
 export default AddPlacePopup;
-

@@ -1,5 +1,5 @@
 .card__like {
-  background: url(../../../images/likeactive.svg);
+  background: url(../../../images/Vector-h.svg);
   margin: 0;
   padding: 0;
   width: 22px;
@@ -12,7 +12,7 @@
   transition: opacity .2s linear;
 }
 
-.card__stroke:hover {
+.card__like:hover {
   opacity: .5;
   cursor: pointer;
 }

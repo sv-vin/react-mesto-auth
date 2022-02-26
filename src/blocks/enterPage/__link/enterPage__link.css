@@ -1,0 +1,28 @@
+.enterPage__link {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.3s linear;
+  margin-top: 15px;
+}
+
+.enterPage__link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.enterPage__link:active {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 320px) {
+  .enterPage__link {
+    margin-top: 20px;
+  }
+}

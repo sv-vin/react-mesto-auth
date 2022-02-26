@@ -13,4 +13,4 @@ function ImagePopup(props) {
 }
 
 
-export default ImagePopup
+export default ImagePopup;
