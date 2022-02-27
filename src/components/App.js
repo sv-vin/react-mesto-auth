@@ -139,9 +139,12 @@ const App = () => {
           email
         };
         setUserData(userData);
+        handleInfoTooltipPopupOpen();
+          history.push("/profile");
       })
       .catch((error) => console.error(error));
-      history.push("/*");
+      handleNotInfoTooltipPopupOpen();
+          history.push("/sign-in");
   };
 
   const handleRegister = ({ email, password }) => {
