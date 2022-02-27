@@ -139,8 +139,6 @@ const App = () => {
           email
         };
         setUserData(userData);
-        handleInfoTooltipPopupOpen();
-          history.push("/profile");
       })
       .catch((error) => console.error(error));
       handleNotInfoTooltipPopupOpen();
