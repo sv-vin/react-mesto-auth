@@ -165,7 +165,7 @@ const App = () => {
       .catch((error) => {
         console.error(error);
         handleNotInfoTooltipPopupOpen();
-        history.push("/sign-in");
+       
       });
 
   };
