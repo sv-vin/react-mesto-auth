@@ -140,9 +140,11 @@ const App = () => {
         };
         setUserData(userData);
       })
-      .catch((error) => console.error(error));
-      handleNotInfoTooltipPopupOpen();
-          history.push("/sign-in");
+      .catch((error) => {
+        console.error(error);
+        handleNotInfoTooltipPopupOpen();
+        history.push("/sign-in");
+      });
   };
 
   const handleRegister = ({ email, password }) => {
@@ -163,7 +165,7 @@ const App = () => {
       .catch((error) => {
         console.error(error);
         handleNotInfoTooltipPopupOpen();
-
+        history.push("/sign-in");
       });
 
   };
