@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee56ff35.chunk.css",
-    "main.js": "/static/js/main.a4b3972c.chunk.js",
-    "main.js.map": "/static/js/main.a4b3972c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.45c7c875.js",
-    "runtime-main.js.map": "/static/js/runtime-main.45c7c875.js.map",
-    "static/js/2.e8bcacf9.chunk.js": "/static/js/2.e8bcacf9.chunk.js",
-    "static/js/2.e8bcacf9.chunk.js.map": "/static/js/2.e8bcacf9.chunk.js.map",
-    "static/js/3.5a9b53ee.chunk.js": "/static/js/3.5a9b53ee.chunk.js",
-    "static/js/3.5a9b53ee.chunk.js.map": "/static/js/3.5a9b53ee.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.ee56ff35.chunk.css.map": "/static/css/main.ee56ff35.chunk.css.map",
-    "static/js/2.e8bcacf9.chunk.js.LICENSE.txt": "/static/js/2.e8bcacf9.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/edditbutton.8667ac4a.svg",
-    "static/media/Logo.03b78ada.svg": "/static/media/Logo.03b78ada.svg",
-    "static/media/No.d864619b.jpg": "/static/media/No.d864619b.jpg"
+    "main.css": "/sign-up/static/css/main.0703e1fd.chunk.css",
+    "main.js": "/sign-up/static/js/main.a4b3972c.chunk.js",
+    "main.js.map": "/sign-up/static/js/main.a4b3972c.chunk.js.map",
+    "runtime-main.js": "/sign-up/static/js/runtime-main.9c3a3a16.js",
+    "runtime-main.js.map": "/sign-up/static/js/runtime-main.9c3a3a16.js.map",
+    "static/js/2.e8bcacf9.chunk.js": "/sign-up/static/js/2.e8bcacf9.chunk.js",
+    "static/js/2.e8bcacf9.chunk.js.map": "/sign-up/static/js/2.e8bcacf9.chunk.js.map",
+    "static/js/3.5a9b53ee.chunk.js": "/sign-up/static/js/3.5a9b53ee.chunk.js",
+    "static/js/3.5a9b53ee.chunk.js.map": "/sign-up/static/js/3.5a9b53ee.chunk.js.map",
+    "index.html": "/sign-up/index.html",
+    "static/css/main.0703e1fd.chunk.css.map": "/sign-up/static/css/main.0703e1fd.chunk.css.map",
+    "static/js/2.e8bcacf9.chunk.js.LICENSE.txt": "/sign-up/static/js/2.e8bcacf9.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/sign-up/static/media/edditbutton.8667ac4a.svg",
+    "static/media/Logo.03b78ada.svg": "/sign-up/static/media/Logo.03b78ada.svg",
+    "static/media/No.d864619b.jpg": "/sign-up/static/media/No.d864619b.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.45c7c875.js",
+    "static/js/runtime-main.9c3a3a16.js",
     "static/js/2.e8bcacf9.chunk.js",
-    "static/css/main.ee56ff35.chunk.css",
+    "static/css/main.0703e1fd.chunk.css",
     "static/js/main.a4b3972c.chunk.js"
   ]
 }
