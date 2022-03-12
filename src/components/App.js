@@ -320,9 +320,6 @@ const App = () => {
         <Route exact path="/">
           {loggedIn ? <Redirect to="/profile" /> : <Redirect to="/sign-in" />}
   </Route>
-  <Route path="/*">
-    <PageNotFound />
-        </Route>
       </Switch>
 
       <InfoTooltip
