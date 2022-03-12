@@ -15,7 +15,7 @@ import AddPlacePopup from "./profile/AddPlacePopup";
 import { CurrentUserContext } from "../contexts/CurrentUserContext";
 import Header from "./Header";
 import Menu from "./profile/Menu";
-import PageNotFound from "./PageNotFound.js"
+
 
 const App = () => {
   const history = useHistory();
